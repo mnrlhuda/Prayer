@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <!-- App Icon with Elevation and Nice Padding -->
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="28dp"
+        app:cardElevation="8dp"
+        android:layout_marginBottom="24dp">
+
+        <ImageView
+            android:src="@mipmap/prayer"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:padding="16dp"
+            android:contentDescription="@string/app_icon_desc"/>
+    </com.google.android.material.card.MaterialCardView>
+
+    <!-- App Title with Better Typography -->
+    <TextView
+        android:text="PRAYER"
+        android:textSize="32sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:letterSpacing="0.1"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!-- Optional Subtitle -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="16dp"
+        android:layout_marginTop="4dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="@string/app_subtitle"
+        android:textColor="#B3FFFFFF"
+        android:textSize="16sp" />
+
+</LinearLayout>
