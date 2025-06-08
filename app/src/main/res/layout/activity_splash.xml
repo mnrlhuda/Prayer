@@ -17,7 +17,7 @@
         android:layout_marginBottom="24dp">
 
         <ImageView
-            android:src="@mipmap/prayer"
+            android:src="@mipmap/ic_launcher"
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:padding="16dp"
